@@ -1,0 +1,51 @@
+{% extends "header.html" %}
+
+{% block content %}
+	<header>
+		<title>AnimatSoft - Contact</title>
+	</header>
+
+	<div class="contact">
+		
+		<!-- FORM EMAIL SECTION -->
+		<section class="formulario-section">
+			<div class="formulario_cuerpo">
+				<center>
+					<form id="formulario" class="container" method="/">
+						<h2 class="title-formulario">Contactanos por Correo</h2>
+						<hr size="10px">
+						<br>
+							<div class="form-label">
+								<input type="text" id="text-name-form" class="form-control" placeholder="Nombre">
+						 	</div>
+							<div class="form-label">
+								<input type="email" id="text-email-form" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-label">
+								<textarea class="form-control" name="comentario-form" id="text-coment-form" cols="30" rows="13" placeholder="Mensaje" maxlength="320"></textarea>
+							</div>
+							<div class="form-label"><br>
+								<input type="submit" class="btn btn-outline-light ps-5 pe-5 pt-2 pd-3" value="Enviar" style="font-size: 20px;">
+							</div>
+					</form>
+				</center>
+			</div>
+		</section>
+
+		<!-- SOCIAL NETWORDS SECTION -->
+		<section class="social-networds-section">
+			<div class="redes_sociales">
+				<center>
+					<h2 class="title_redes_sociales">Nuestras Redes Sociales</h2>
+					<div class="icon_redes_sociales">
+						<a href="#facebook"><i id="facebook" class="fab fa-facebook"></i></a>
+						<a href="#twitter"><i id="twitter" class="fab fa-twitter"></i></a>
+						<a href="#instagram"><i id="instagram" class="fab fa-instagram"></i></a>
+						<a href="#github"><i id="github" class="fab fa-github"></i></a>
+					</div>
+				</center>
+			</div>
+		</section>
+
+	</div>
+{% endblock %}

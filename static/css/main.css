@@ -1,0 +1,92 @@
+body{
+	background: #46426e;
+	color:  white;
+	font-family: 'Rubik', sans-serif;
+}
+
+footer{
+	margin-top: 9%;
+	color:  black;
+}
+
+hr{
+	border-radius:  9px;
+	background:  white;
+}
+
+#first_title, #first_worlk{
+	font-family: 'Lobster', cursive;
+	font-size: 45px;
+}
+
+#img_open_toonz, #img_synfig,  #img_pencil2D, #img_blender{
+	border-radius: 25px;
+	border: 5% #fff solid;
+	margin-top: 15%;
+	margin-left: 5%;
+}
+
+#img_synfig{
+	margin-top: 18%;
+}
+
+#img_pencil2D{
+	margin-top: 12%;
+}
+
+#img_blender{
+	margin-top: 20%;
+}
+
+#formulario{
+  background-color: none;
+  max-width: 650px;
+  padding: 25px 50px 10px 50px;
+  border-radius: 30px;
+  position: static;
+}
+
+.title_section, .first_program_section, .secont_program_section,
+.third_program_section, .fourth_program_section, .fifth_program_section, .formulario-section, .social-networds-section{
+	background: #3e3a61;
+	padding: 30px;
+	margin-top: 50px;
+	border-radius:  10px;
+}
+
+.form-label{
+	margin-bottom: 3%;
+}
+
+.columna-1{
+	margin-left: -2%;
+	margin-right: 3%;
+	padding-left:  40px;
+}
+
+.columna-2{
+	margin-top: 3%;
+}
+
+.os_compatibles i{
+	font-size: 35px;
+	margin: 10px 5px 0px 5px;
+}
+
+.icon_redes_sociales i{
+	font-size: 40px;
+	margin: 15px 10px 0px 10px;
+}
+
+.icon_redes_sociales a:link {
+  	color: white;
+}
+
+.icon_redes_sociales a:visited{
+	color: white;
+}
+
+.icon_redes_sociales a:hover {
+  	padding-bottom: 5px;
+  	border-bottom: 5px solid #fff;
+}
