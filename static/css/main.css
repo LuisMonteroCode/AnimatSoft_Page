@@ -78,7 +78,7 @@ hr{
 	margin: 15px 10px 0px 10px;
 }
 
-.icon_redes_sociales a:link {
+.icon_redes_sociales a:link{
   	color: white;
 }
 
@@ -86,7 +86,13 @@ hr{
 	color: white;
 }
 
-.icon_redes_sociales a:hover {
+.icon_redes_sociales a:hover{
   	padding-bottom: 5px;
   	border-bottom: 5px solid #fff;
 }
+
+/*
+.navbar-nav a:hover {
+		padding-bottom: 0px;
+		border-bottom: 3px solid #46426e;
+}*/
