@@ -47,7 +47,8 @@ hr{
 }
 
 .title_section, .first_program_section, .secont_program_section,
-.third_program_section, .fourth_program_section, .fifth_program_section, .formulario-section, .social-networds-section{
+.third_program_section, .fourth_program_section, .fifth_program_section,
+.formulario-section, .social-networds-section{
 	background: #3e3a61;
 	padding: 30px;
 	margin-top: 50px;
@@ -88,6 +89,7 @@ hr{
 
 .icon_redes_sociales a:hover{
   	padding-bottom: 5px;
+  	font-size: 15px;
   	border-bottom: 5px solid #fff;
 }
 
